@@ -1,2 +1,5 @@
-These are programs I wrote for a short-term rental property-management company. ReservationsXL retrieves reservation information from a platform called "Guesty" and generates an excel file that can be used to generate QuickBooks sales receipts by uploading them to Saasant.com.
-This code will not run on your computer because relevant client/secret keys and credentials files that were used to connect to various APIs have been deleted for obvious reasons. If you are a prospective employer and wish to see these run, we can arrange this in person. 
+These are programs I wrote for a short-term rental property-management company. ReservationsXL retrieves reservation information from a platform called "Guesty" and generates an excel file that can be used to generate QuickBooks sales receipts by uploading them to Saasant.com. For more clarity on how this code works, see the Guesty API documentation: https://docs.guesty.com/
+
+QBUpload takes an excel file containing the relevant information for some list of reservations and uses it to generate new QuickBooks sales receipts for those reservations. For more clarity on how this code works, see the QuickBooks API documentation: https://developer.intuit.com/app/developer/qbo/docs/api/accounting/most-commonly-used/account
+
+Almost none of this code will not run on your computer because relevant client/secret keys and credentials files that were used to connect to various APIs have been deleted for obvious reasons. If you are a prospective employer and wish to see these run, we can arrange this in person. 
