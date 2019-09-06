@@ -41,11 +41,11 @@ def dateselector():
 headers = {
   'Content-Type': "application/json",
   'cache-control': "no-cache",
-  'Postman-Token': "17980f5a-13a9-4609-9ae7-db9ffbfa067c"
+  'Postman-Token': % Omitted
   }
 
-key = '64b48167aca25c0c337e493defe30678'
-secret = '3f72cc66b271b750886ae34465352cc9'
+key = % Omitted
+secret = '% Omitted
 url = 'https://api.guesty.com/api/v2/reservations'
 
 def getRes(fil):
@@ -60,7 +60,7 @@ def getRes(fil):
     return(reses)
 
 
-def resdats(date1,date2,date3,date4,con): #YYYY-MM-DD format, con = 'confirmed' or 'cancelled' or whatever
+def resdats(date1,date2,date3,date4,con): #YYYY-MM-DD format, con = 'confirmed' or 'cancelled'
     try:
         for k in range(1,5):
             datetime.datetime.strptime(eval('date'+str(k)), '%Y-%m-%d')
