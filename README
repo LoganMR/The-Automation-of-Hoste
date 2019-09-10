@@ -3,4 +3,4 @@ These are programs I wrote for a short-term rental property-management company. 
 QBUpload takes an excel file containing the relevant information for some list of reservations and uses it to generate new QuickBooks sales receipts for those reservations. This code depends on the Python-Quickbooks library which can be found here: https://github.com/sidecars/python-quickbooks
 For more clarity on how this code works, see the QuickBooks API documentation: https://developer.intuit.com/app/developer/qbo/docs/api/accounting/most-commonly-used/account
 
-Almost none of this code will not run on your computer because relevant client/secret keys and credentials files that were used to connect to various APIs have been deleted for obvious reasons. If you are a prospective employer and wish to see these run, we can arrange this in person. 
+Almost none of this code will run on your computer because relevant client/secret keys and credentials files that were used to connect to various APIs have been deleted for obvious reasons. If you are a prospective employer and wish to see these run, we can arrange this in person. 
